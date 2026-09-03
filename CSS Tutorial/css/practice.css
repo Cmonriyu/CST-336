@@ -1,0 +1,48 @@
+body
+{
+    background-color: black;
+}
+
+h1 {
+    color: yellow;
+    text-align: center; 
+    font-family: 'Pacifico', cursive; 
+    font-size:max(2vw, 7vw); 
+    margin:0 auto;
+}
+.row {
+    display:flex; 
+    justify-content:center;
+}
+figure{
+    text-align: center; 
+    width:40%;
+}
+
+.flowerimgs{
+    border-top-left-radius:25px; 
+    border:1px solid yellow;
+    width:100%;
+    height:auto;
+}
+
+figcaption {
+    color:white; 
+    font-size:max(2vw, 4vw);
+}
+
+hr {
+    width:75%; 
+    margin-top:20px;
+}
+
+footer {
+    font-size:3vw; 
+    color:silver;
+    text-align:center; 
+    top-padding:10px;
+}
+
+#logo {
+    width:15%;
+}
