@@ -1,0 +1,64 @@
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.doppio-one-regular {
+  font-family: "Doppio One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header {
+    background-color: Black;
+    color:White;
+    text-align: center;
+    padding: 1px;
+    font-family:"Doppio One", sans-serif;
+}
+
+main {
+    background-color: #003569;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+#mainbody{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: "Doppio One", sans-serif;
+}
+
+#navbar {
+    text-align: center;
+    background-color: #a39163;
+    padding: 10px;
+
+}
+
+.profileimage{
+    border-radius: 40px;
+}
+
+#nametext{
+
+}
+
+#underbody {
+    background-color: #003569;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: Black;
+    color:gray;
+    text-align: center;
+}
+
+#form{
+    background-color: white;
+}
+
