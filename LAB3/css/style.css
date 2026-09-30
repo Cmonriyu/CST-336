@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 80px auto;
+    background-color: #fc7272;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+div {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 200px;
+}
+
+button {
+    background-color: rgb(60, 160, 230);
+    color: white;
+    padding: 10px 20px;
+    border: black;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(40, 130, 195);
+}
+
+button:active {
+    transform: translateY(2px);
+    background-color: (21, 108, 165);
+}
+
+.Qimgs {
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#attempts {
+    font-weight: bold;
+    color: hsl(0, 100%, 50%);
+}
+
+#Bgrade {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}

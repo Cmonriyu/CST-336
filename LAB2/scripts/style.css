@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, aliceblue, #e0f7fa);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial Black", sans-serif;
+}
+
+#main {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    border: 5px solid lightcoral;
+}
+
+
+button{
+    background-color: rgb(127, 255, 212);
+    border: 5px solid rgb(255, 192, 203);
+    border-radius: 5px;
+    font-size: large;
+    font-family: "Arial Black", sans-serif;
+}   
+
+button:hover {
+    background-color: rgb(87, 215, 172);
+    border-color: rgb(215, 152, 163);
+}
+
+button:active {
+    transform: translateY(2px);
+    background-color: rgb(47, 175, 132);
+    border-color: rgb(175, 112, 123);
+}
