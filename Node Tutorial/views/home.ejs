@@ -3,16 +3,27 @@
 
 <head>
     <%- include('partials/head.ejs') %>
+    <%- include('partials/header.ejs') %>
 </head>
 
-<body>
-    <%- include('partials/header.ejs') %>
+<body id="mainbody">
+    <div id="information">
         <p>Welcome to the planets!</p>
-        <% images.forEach((imgUrl, index)=> { %>
-            <div>
-                <img class="photo" src="<%= imgUrl %>" alt="Solar System Photo <%= index + 1 %>">
-            </div>
-            <% }); %>
+    </div>
+    <div id="imgnsources">
+        <% if (images.length > 0) { %>
+            <% images.forEach((imgUrl, index) => { %>
+                <div>
+                    <img class="photo" src="<%= imgUrl %>" alt="Solar System Photo <%= index + 1 %>">
+                </div>
+            <% }) %>
+        <% } else { %>
+                <div>
+                    <p>Images could not be loaded.</p>
+                </div>
+        <% } %>
+    </div>
+
     <%- include('partials/footer.ejs') %>
 </body>
 

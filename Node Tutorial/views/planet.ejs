@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <%- include('partials/head.ejs') %>
-</head>
-<body>
     <%- include('partials/header.ejs') %>
-    <h1><%= planetName %></h1>
-    <p> <%= data.description %></p>
-    <p>Distance from Sun: <%= data.distanceFromSun %></p>
-    <p>Length of 1 Year: <%= data.yearLength %></p>
-    <p>Length of 1 Earth Day: <%= data.oneEarthDay %></p>
-    <p>Radius: <%= data.radius %></p>
-    <p>Moon Count: <%= data.moons %></p>
-    <img class = "photo" src="<%= data.image %>" />
-    <p>Source: <a href="<%= data.image %>"><%= data.image %></a></p>
-    <p>Info Source : <a href="<%= data.websiteLink %>"><%= data.websiteLink %></a></p>
+</head>
+<body id="mainbody">
+    <div id="information">
+        <h1><%= planetName %></h1>
+        <p> <%= data.description %></p>
+        <p>Distance from Sun: <%= data.distanceFromSun %></p>
+        <p>Length of 1 Year: <%= data.yearLength %></p>
+        <p>Length of 1 Earth Day: <%= data.oneEarthDay %></p>
+        <p>Radius: <%= data.radius %></p>
+        <p>Moon Count: <%= data.moons %></p>
+    </div>
+    <div id="imgnsources">
+        <img class = "photo" src="<%= data.image %>" />
+        <p>Source: <a href="<%= data.image %>"><%= data.image %></a></p>
+        <p>Info Source : <a href="<%= data.websiteLink %>"><%= data.websiteLink %></a></p>
+    </div>    
+
 
     <%- include('partials/footer.ejs') %>
 </body>

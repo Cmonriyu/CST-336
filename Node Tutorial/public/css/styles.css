@@ -1,8 +1,57 @@
-body{
+#mainbody{
+    background-color: black;
+    color:white
+}
+
+#navbar{
+    background-color: #0F0E17;
+}
+
+#information {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
     align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #0F0E17;
+    border: 5px solid #121218;
+    border-radius: 15px;
+}
+
+#imgnsources{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #0F0E17;
+    border: 5px solid #121218;
+    border-radius: 15px;
+    gap: 20px;
 }
 
 .photo {
     width: 800px;
+    height: 800px;
     border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+#navbar {
+    padding-left: 30px;
+    padding-right: 30px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
 }

@@ -30,7 +30,7 @@ app.get('/', async (req, res) => {
 
         res.render('home.ejs', { images: images });
     } catch (error) {
-            
+        console.error("Error fetching images:", error);
         res.render('home.ejs', { images: [] });
     }
 
