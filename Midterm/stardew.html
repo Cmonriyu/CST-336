@@ -1,29 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width= initial-scale=1.0">
     <title>Stardew Fish and Crops</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Sniglet:wght@400;800&display=swap"
+        rel="stylesheet">
 </head>
+
+
+
 <body>
-    
-<h1>Stardew Valley Information</h1>
+    <nav class="navbar navbar-light bg-light">
 
-    <div >
-        <select id="options">
-            <option value=""></option>
-            <option value="spring" >spring</option>
-            <option value="summer" >summer</option>
-            <option value="fall" >fall</option>
-            <option value="winter" >winter</option>
+        <a href="stardew.html" class="navbar-brand h1"> Stardew Valley Fish </a>
+        <a href="leagueItems.html" class="navbar-brand h1"> League of Legends Items</a>
+        <a href="leagueMastery.html" class="navbar-brand h1"> League of Legends Mastery </a>
 
-        </select>
-    </div>
 
-    <div id="mainbody">
+    </nav>
 
-    </div>
+    <header>
+        <h1>Stardew Valley Fish</h1>
+    </header>
+    <main>
+        <div id="filters">
+            <div id="seasonFilter">
+                Season:
 
-    <script src="scripts/Stardewscripts.js"></script>
+                <input type="radio" id="seasonAny" name="season" value="">
+                <label for="seasonAny">Any Season</label>
+
+                <input type="radio" id="seasonSpring" name="season" value="spring">
+                <label for="seasonSpring">Spring</label>
+
+                <input type="radio" id="seasonSummer" name="season" value="summer">
+                <label for="seasonSummer">Summer</label>
+
+                <input type="radio" id="seasonFall" name="season" value="fall">
+                <label for="seasonFall">Fall</label>
+
+                <input type="radio" id="seasonWinter" name="season" value="winter">
+                <label for="seasonWinter">Winter</label>
+
+                <br>
+                <p id="amount"> Displaying 0 Out of 70</p>
+            </div>
+
+            <div id="areaFilter">
+                
+
+            </div>
+
+            <div id="sortFilter">
+                <button id="reset">Reset</button>
+                <br>
+                <br>
+                <br>
+                Sort:
+                <select id="sort">
+                    <option value="Alphabetical A-Z"> Alphabetical A-Z </option>
+                    <option value="Alphabetical Z-A"> Alphabetical Z-A </option>
+                    <option value="Price Low to High"> Price Low to High </option>
+                    <option value="Price High to Low"> Price High to Low </option>
+                    <option value="Difficulty Low to High"> Difficulty Low to High </option>
+                    <option value="Difficulty High to Low"> Difficulty High to Low </option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div id="mainbody">
+
+        </div>
+
+        <script src="scripts/Stardewscripts.js"></script>
+        <link rel="stylesheet" href="css/Stardewstyle.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </main>
+    <footer>
+        <p> Created By Riyu Reyes</p>
+
+    </footer>
 </body>
+
 </html>

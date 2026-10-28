@@ -1,0 +1,8 @@
+body{
+    align-items: center;
+}
+
+.photo {
+    width: 800px;
+    border-radius: 8px;
+}

@@ -1,0 +1,120 @@
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  font-family: "Cherry Bomb One", system-ui;
+  font-size: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+#filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+#areaFilter {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.areaFilters {
+  display: flex;
+  background: rgba(255, 255, 255, 0.500);
+  padding: 5px;
+  border-radius: 16px;
+  text-align: center;
+  border: 3px solid rgb(155, 155, 155, 0.500);
+}
+
+#sortFilter {
+  margin-left: auto;
+}
+
+#mainbody {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fish {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: skyblue;
+  border-radius: 16px;
+  color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-color: aliceblue;
+  font-family: "Sniglet", system-ui;
+}
+
+.fishimg {
+  width: 100px;
+}
+
+.fishnames {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+button {
+  background-color: rgb(127, 255, 212);
+  border: 5px solid rgb(255, 192, 203);
+  border-radius: 5px;
+  font-size: large;
+  font-family: "Arial Black", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(87, 215, 172);
+  border-color: rgb(215, 152, 163);
+}
+
+button:active {
+  transform: translateY(2px);
+  background-color: rgb(47, 175, 132);
+  border-color: rgb(175, 112, 123);
+}
+
+
+footer{
+  margin-left: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends Items</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Sniglet:wght@400;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+
+            <a href="stardew.html" class="navbar-brand h1"> Stardew Valley Fish </a>
+            <a href="leagueItems.html" class="navbar-brand h1"> League of Legends Items</a>
+            <a href="leagueMastery.html" class="navbar-brand h1"> League of Legends Mastery </a>
+
+
+        </nav>
+        <h1>League of Legends Items Information</h1>
+    </header>
+    <main>
+        <div id="filters">
+            <div id="classFilterdiv">
+                Class:
+                <br>
+
+                <input type="radio" id="classAny" name="class" value="">
+                <label for="classAny">Any Class</label>
+
+                <input type="radio" id="classFighter" name="class" value="Fighter">
+                <label for="classFighter">Fighter</label>
+
+                <input type="radio" id="classMarksman" name="class" value="Marksman">
+                <label for="classMarksman">Marksman</label>
+
+                <br>
+                <input type="radio" id="classAssassin" name="class" value="Assassin">
+                <label for="classAssassin">Assassin</label>
+
+                <input type="radio" id="classMage" name="class" value="Mage">
+                <label for="classMage">Mage</label>
+
+                <input type="radio" id="classTank" name="class" value="Tank">
+                <label for="classTank">Tank</label>
+
+                <input type="radio" id="classSupport" name="class" value="Support">
+                <label for="classSupport">Support</label>
+                
+            </div>
+
+            <div id="#textFilterdiv">
+                Enter Name of Item:
+                <br>
+                <input type="text" id="input" placeholder="Luden's Echo">                
+                
+            </div>
+
+            <div id="statFilterdiv">
+
+
+            </div>
+
+            <div id="sortFilter">
+                <button id="reset">Reset</button>
+                <br>
+                <p id="amount">Displaying 0 of 227</p>
+                <br>
+                Sort:
+                <select id="sort">
+                    <option value="Alphabetical A-Z"> Alphabetical A-Z </option>
+                    <option value="Alphabetical Z-A"> Alphabetical Z-A </option>
+                    <option value="Price Low to High"> Price Low to High </option>
+                    <option value="Price High to Low"> Price High to Low </option>
+                </select>
+
+
+            </div>
+
+        </div>
+
+        <div id="displaydiv">
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p> Created By Riyu Reyes</p>
+    </footer>
+    <link rel="stylesheet" href="css/LeagueItemstyle.css">
+    <script src="scripts/LeagueItemscripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head.ejs') %>
+</head>
+
+<body>
+    <%- include('partials/header.ejs') %>
+        <p>Welcome to the planets!</p>
+        <% images.forEach((imgUrl, index)=> { %>
+            <div>
+                <img class="photo" src="<%= imgUrl %>" alt="Solar System Photo <%= index + 1 %>">
+            </div>
+            <% }); %>
+    <%- include('partials/footer.ejs') %>
+</body>
+
+</html>
